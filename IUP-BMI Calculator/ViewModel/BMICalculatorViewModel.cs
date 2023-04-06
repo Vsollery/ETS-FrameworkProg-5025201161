@@ -47,14 +47,17 @@ namespace IUP_BMI_Calculator.ViewModel
         public void Save()
         {
             // TO DO
-            App.BMIResultRepo.AddNewBMIResult(name, height, weight, BMIScore, BMIResult);
+            App.BMIResultRepo.AddNewBMIResult(Name, Height, Weight, BMIScore, BMIResult);
 
         }
 
         [RelayCommand]
         public void Clear()
         {
-            // TODO
+            Name = "";
+            Height = 0 ;
+            Weight = 0;
+             
         }
 
     }
