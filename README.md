@@ -121,3 +121,12 @@ public App(BMIResultRepository repo)
   BMIResultRepo = repo;
 }
 ```
+#### RESULT
+
+Testing with my name
+
+![](/img/res.jpg)
+
+After pressing clear button. It will clear the name and the height and weight will automatically reset to 0.
+
+![](/img/res1.png)
