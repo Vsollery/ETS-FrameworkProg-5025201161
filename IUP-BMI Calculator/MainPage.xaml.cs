@@ -2,12 +2,15 @@
 
 namespace IUP_BMI_Calculator;
 
+
 public partial class MainPage : ContentPage
 {
 	public MainPage()
 	{
 		InitializeComponent();
 		// TODO
+		this.BindingContext = new BMICalculatorViewModel();
+
 	}
 
 }
