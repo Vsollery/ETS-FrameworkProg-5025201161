@@ -1,4 +1,7 @@
-# ETS-FrameworkProg-5025201161
+# MIDTERM FRAMEWORK PROGRAMMING IUP
+
+Venia Sollery Aliyya Hasna
+5025201161
 
 #### 1. Complete the Model\BMIResult.cs class. 
 This class should represent the columns on the table (id, name, heigh, weight, BMI Score, and 
